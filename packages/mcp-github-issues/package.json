@@ -1,0 +1,31 @@
+{
+  "name": "@claude-skills/mcp-github-issues",
+  "version": "0.1.0",
+  "description": "MCP server for fetching GitHub issues and PRs",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "mcp-github-issues": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "typecheck": "tsc --noEmit",
+    "lint": "echo 'no lint configured'",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:ui": "vitest --ui"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "zod": "^3.22.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "typescript": "^5.3.0"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": ["mcp", "github", "claude-code", "issues", "pull-requests"]
+}

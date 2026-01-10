@@ -1,0 +1,16 @@
+{
+  "name": "notify-complete",
+  "version": "1.0.0",
+  "description": "Sends OS notification when Claude Code completes a task. Perfect for long-running operations.",
+  "main": "notify.js",
+  "scripts": {
+    "test": "echo \"No tests for hooks yet\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "node-notifier": "^10.0.1"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "hooks": [
+    {
+      "matcher": "PostToolUse",
+      "hooks": [
+        {
+          "type": "command",
+          "command": "node /Users/jkneen/Documents/GitHub/flows/claude-skills/hooks/cost-monitor/cost-monitor.js"
+        }
+      ]
+    }
+  ]
+}

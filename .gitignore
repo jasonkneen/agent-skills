@@ -1,0 +1,5 @@
+/.turbo/cache
+/hooks/notify-complete/node_modules
+/node_modules
+/packages/mcp-debug-cycle/.turbo
+/todos

@@ -1,0 +1,13 @@
+{
+  "hooks": [
+    {
+      "matcher": "Stop",
+      "hooks": [
+        {
+          "type": "command",
+          "command": "node /Users/jkneen/Documents/GitHub/flows/claude-skills/hooks/notify-complete/notify.js"
+        }
+      ]
+    }
+  ]
+}

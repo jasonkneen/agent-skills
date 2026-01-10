@@ -1,0 +1,6 @@
+
+> notify-complete@1.0.0 test /Users/jkneen/Documents/GitHub/flows/claude-skills/hooks/notify-complete
+> echo "Error: no test specified" && exit 1
+
+Error: no test specified
+ ELIFECYCLE  Test failed. See above for more details.

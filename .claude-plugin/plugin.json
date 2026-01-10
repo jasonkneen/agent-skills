@@ -1,0 +1,56 @@
+{
+  "name": "claude-skills",
+  "version": "0.1.0",
+  "description": "Collection of Claude Code skills, MCP servers, and hooks for enhanced productivity",
+  "author": {
+    "name": "jkneen"
+  },
+  "repository": "https://github.com/jkneen/claude-skills",
+  "keywords": [
+    "claude-code",
+    "mcp",
+    "github",
+    "code-review",
+    "debugging",
+    "hooks",
+    "skills"
+  ],
+  "components": {
+    "mcpServers": [
+      {
+        "name": "github-issues",
+        "description": "Fetch GitHub issues and PRs directly into Claude context",
+        "entry": "packages/mcp-github-issues/dist/index.js"
+      },
+      {
+        "name": "debug-cycle",
+        "description": "Automated debug instrumentation and log analysis",
+        "entry": "packages/mcp-debug-cycle/dist/index.js"
+      }
+    ],
+    "skills": [
+      {
+        "name": "code-review",
+        "description": "Automated code review against CLAUDE.md conventions",
+        "entry": "skills/code-review/SKILL.md"
+      }
+    ],
+    "hooks": [
+      {
+        "name": "cost-monitor",
+        "description": "Track token usage and warn at limits",
+        "entry": "hooks/cost-monitor/hooks.json"
+      },
+      {
+        "name": "notify-complete",
+        "description": "OS notification when tasks complete",
+        "entry": "hooks/notify-complete/hooks.json"
+      },
+      {
+        "name": "tdd-enforcement",
+        "description": "Block non-test edits in TDD mode",
+        "entry": "hooks/tdd-enforcement/hooks.json"
+      }
+    ]
+  }
+}
