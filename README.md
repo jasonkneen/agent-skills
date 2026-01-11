@@ -16,6 +16,7 @@ Collection of Agent skills, MCP servers, and hooks for enhanced productivity.
 | Skill | Description | Status |
 |-------|-------------|--------|
 | [code-review](./skills/code-review/) | Automated code review against CLAUDE.md | ✅ Ready |
+| [clone-react-skill](https://github.com/jasonkneen/clone-react-skill) | Clone any component with interactive selector | ✅ Ready |
 
 ### Hooks
 
