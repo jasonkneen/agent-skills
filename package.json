@@ -1,25 +1,8 @@
 {
-  "name": "claude-skills",
-  "version": "0.1.0",
+  "name": "agent-skills",
+  "version": "1.0.0",
   "private": true,
-  "description": "Collection of Claude Code skills, MCP servers, and hooks",
   "scripts": {
-    "build": "turbo build",
-    "dev": "turbo dev",
-    "lint": "turbo lint",
-    "typecheck": "turbo typecheck",
-    "test": "turbo test",
-    "clean": "turbo clean && rm -rf node_modules"
-  },
-  "devDependencies": {
-    "@types/node": "^20.10.0",
-    "@vitest/ui": "^4.0.16",
-    "turbo": "^2.0.0",
-    "typescript": "^5.3.0",
-    "vitest": "^4.0.16"
-  },
-  "packageManager": "pnpm@9.0.0",
-  "engines": {
-    "node": ">=18"
+    "sync:skills": "bash scripts/sync-skills.sh"
   }
 }
