@@ -1,6 +1,6 @@
-# Claude Skills
+# Agent Skills (prev. Claude Skills)
 
-Collection of Claude Code skills, MCP servers, and hooks for enhanced productivity.
+Collection of Agent skills, MCP servers, and hooks for enhanced productivity.
 
 ## Components
 
